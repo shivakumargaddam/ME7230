@@ -1,0 +1,32 @@
+==================================================================
+       Phase field method for quasi-static brittle fracture       
+         Applied Finite Element Methods(ME7230) - Project         
+                  Shiva Kumar Gaddam - MM22D014                   
+==================================================================
+GMESH IMPORT:
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PreProc.gmsh_import')" style="font-weight:bold">PreProc.gmsh_import</a>
+Too many input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadpatchtest', 'C:\Users\shiva\MATLAB Drive\ME7230\project\quadpatchtest.m', 37)" style="font-weight:bold">quadpatchtest</a> (<a href="matlab: opentoline('C:\Users\shiva\MATLAB Drive\ME7230\project\quadpatchtest.m',37,0)">line 37</a>)
+[nodes,elements,noN,noE,uvfixed,uvmoving,phinode] = PreProc.gmsh_import(eType,gmshfile,filename,plotmesh);
+} 
+quadpatchtest
+==================================================================
+       Phase field method for quasi-static brittle fracture       
+         Applied Finite Element Methods(ME7230) - Project         
+                  Shiva Kumar Gaddam - MM22D014                   
+==================================================================
+GMESH IMPORT:
+	No of 'NODES' in the generated mesh		: 4
+	No of 'ELEMENTS' in the generated mesh	: 1
+	Element type: quad4
+ 
+Simulation begins! 
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Solver.stagPFM')" style="font-weight:bold">Solver.stagPFM</a>
+'cracknodes' does not exist in 'C:\Users\shiva\MATLAB Drive\ME7230\project\tempresults.mat'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('quadpatchtest', 'C:\Users\shiva\MATLAB Drive\ME7230\project\quadpatchtest.m', 53)" style="font-weight:bold">quadpatchtest</a> (<a href="matlab: opentoline('C:\Users\shiva\MATLAB Drive\ME7230\project\quadpatchtest.m',53,0)">line 53</a>)
+Solver.stagPFM(duincMAX,duincMIN,duinc);
+} 
+opentoline('C:\Users\shiva\MATLAB Drive\ME7230\project\quadpatchtest.m',53,0)
+main
